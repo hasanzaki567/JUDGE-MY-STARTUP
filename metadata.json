@@ -1,0 +1,6 @@
+{
+  "name": "JUDGE MY STARTUP",
+  "description": "The VC Reality Check — Pitch your startup to an AI investor with no VC fluff or polite rejections, just brutal analytical roasts and failure modeling.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
