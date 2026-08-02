@@ -17,9 +17,10 @@ export const Navbar: React.FC<NavbarProps> = ({
     <nav className="fixed top-0 w-full z-50 bg-[#12131a]/80 backdrop-blur-xl border-b border-white/5 flex justify-between items-center px-4 sm:px-8 h-16 shadow-[0_0_40px_rgba(0,210,255,0.05)]">
       <div
         onClick={() => setActiveTab('hero')}
-        className="font-bold tracking-tighter text-white text-xl sm:text-2xl cursor-pointer hover:text-[#a5e7ff] transition-colors flex items-center gap-2"
+        className="font-bold tracking-tighter text-white text-xl sm:text-2xl cursor-pointer hover:text-[#a5e7ff] transition-colors flex items-center gap-3"
         id="nav-logo"
       >
+        <img src="/logo.png" alt="Judge My Startup Logo" className="w-8 h-8 rounded-lg object-cover border border-white/10 shadow-[0_0_15px_rgba(165,231,255,0.2)]" />
         <span>JUDGE MY STARTUP</span>
       </div>
 
