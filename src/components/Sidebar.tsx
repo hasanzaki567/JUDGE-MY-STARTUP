@@ -59,7 +59,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           }`}
           id="side-hype-cycle"
         >
-          <span className="material-symbols-outlined mr-3">fitbit_jumping_jacks</span>
+          <span className="material-symbols-outlined mr-3">trending_up</span>
           <span className="text-sm font-medium">Hype Cycle</span>
         </button>
 
